@@ -28,3 +28,9 @@ Repositório criado para aulas da Academia Neon
     sudo apt install ansible
  
 - Meu primeiro Playbook
+
+  - Em ~/Documents:
+  - mkdir -p <seu-nome>/exemplo-ansible e dentro crie 2 arquivos:
+    - teste.txt
+    - upload-file.yml
+
