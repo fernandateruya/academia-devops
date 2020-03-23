@@ -11,7 +11,14 @@ Repositório criado para aulas da Academia Neon
       grupos
 
 
-- Pra quê Ansible?
+- Como ele Funciona?
+
+  Escreva uma receita
+  Determine um ou mais “alvos”
+  O Ansible 
+    converte essa receita em um código python
+    retorna inventário de execução 
+
 
 - Instalação
 
