@@ -1,0 +1,17 @@
+---
+- name: Replace content | Upload file
+  hosts: localhost
+  become: yes
+  gather_facts: yes
+  tasks:
+   - replace:
+      backup: true
+      path: ./config.json
+      regexp: development
+      replace: production      
+   - name: Upload File 
+     template:
+      src: config.json
+      dest: /usr/src
+      mode: 0777
+        
